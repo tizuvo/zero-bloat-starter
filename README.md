@@ -16,6 +16,12 @@
   <strong>18/18</strong> checks in <code>npx @tizuvo/audit</code> out of the box.
 </p>
 
+<p align="center">
+  <a href="https://starter.tizuvo.com"><strong>Live Demo (starter.tizuvo.com)</strong></a> &middot;
+  <a href="https://tizuvo.com/audit">Run Audit</a> &middot;
+  <a href="https://github.com/tizuvo/zero-bloat-starter/generate">Use this template</a>
+</p>
+
 ---
 
 ## Why Zero-Bloat?
@@ -81,6 +87,10 @@ All three deployment targets enforce identical hardened security headers (`CSP`,
 Verify performance, security headers, and technical SEO in one command using [`@tizuvo/audit`](https://github.com/tizuvo/site-audit-cli) (or run a browser-based report at [tizuvo.com/audit](https://tizuvo.com/audit)):
 
 ```bash
+# Audit the live demo deployment
+npx @tizuvo/audit https://starter.tizuvo.com
+
+# Or audit your own deployed domain
 npx @tizuvo/audit https://your-domain.com
 ```
 
