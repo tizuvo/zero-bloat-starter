@@ -71,6 +71,7 @@ All three deployment targets enforce identical hardened security headers (`CSP`,
 1. Click **Use this template** on GitHub and connect your repository in Cloudflare Pages.
 2. Set **Build command** to *(empty)* and **Build output directory** to `public`.
 3. Cloudflare Pages automatically applies [`public/_headers`](public/_headers) and serves `404.html`.
+4. **Tip for 100/100 Best Practices:** Disable Cloudflare Web Analytics auto-injection (RUM) and Email Address Obfuscation for your custom domain so Cloudflare does not inject third-party scripts that conflict with the strict `script-src 'self'` CSP.
 
 ### Vercel
 1. Copy [`deploy/vercel.json`](deploy/vercel.json) to the repository root (`cp deploy/vercel.json vercel.json`).
