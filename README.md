@@ -11,7 +11,7 @@
 <h1 align="center">zero-bloat-starter</h1>
 
 <p align="center">
-  A zero-dependency, zero-build-step static and edge website starter kit engineered by
+  A zero-dependency, zero-build-step static and edge website starter kit developed by
   <a href="https://tizuvo.com">Tizuvo</a> to score <strong>100/100</strong> across Lighthouse and pass
   <strong>18/18</strong> checks in <code>npx @tizuvo/audit</code> out of the box.
 </p>
