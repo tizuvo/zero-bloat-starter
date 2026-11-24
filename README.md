@@ -13,7 +13,7 @@
 <p align="center">
   A zero-dependency, zero-build-step static and edge website starter kit developed by
   <a href="https://tizuvo.com">Tizuvo</a> to score <strong>100/100</strong> across Lighthouse and pass
-  <strong>18/18</strong> checks in <code>npx @tizuvo/audit</code> out of the box.
+  <strong>20/20</strong> checks in <code>npx @tizuvo/audit</code> out of the box.
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@ Tested live on [`starter.tizuvo.com`](https://starter.tizuvo.com) via **[PageSpe
 | **PageSpeed Insights — Accessibility** | **100 / 100** | [Run on pagespeed.web.dev](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fstarter.tizuvo.com%2F) |
 | **PageSpeed Insights — Best Practices** | **100 / 100** | [Run on pagespeed.web.dev](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fstarter.tizuvo.com%2F) |
 | **PageSpeed Insights — SEO** | **100 / 100** | [Run on pagespeed.web.dev](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fstarter.tizuvo.com%2F) |
-| **`npx @tizuvo/audit`** | **100 / 100 (A+ · 18/18)** | `npx @tizuvo/audit https://starter.tizuvo.com` |
+| **`npx @tizuvo/audit`** | **100 / 100 (A+ · 20/20)** | `npx @tizuvo/audit https://starter.tizuvo.com` |
 
 ---
 

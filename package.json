@@ -1,7 +1,7 @@
 {
   "name": "zero-bloat-starter",
   "version": "1.0.0",
-  "description": "Zero-dependency, zero-build-step static and edge website starter kit developed by Tizuvo for 100/100 Lighthouse and 18/18 @tizuvo/audit.",
+  "description": "Zero-dependency, zero-build-step static and edge website starter kit developed by Tizuvo for 100/100 Lighthouse and 20/20 @tizuvo/audit.",
   "type": "module",
   "private": true,
   "license": "MIT",
