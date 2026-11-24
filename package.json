@@ -1,0 +1,31 @@
+{
+  "name": "zero-bloat-starter",
+  "version": "1.0.0",
+  "description": "Zero-dependency, zero-build-step static and edge website starter kit engineered by Tizuvo for 100/100 Lighthouse and 18/18 @tizuvo/audit.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Tizuvo <https://tizuvo.com>",
+  "homepage": "https://github.com/tizuvo/zero-bloat-starter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tizuvo/zero-bloat-starter.git"
+  },
+  "keywords": [
+    "static-site",
+    "zero-dependencies",
+    "no-build",
+    "lighthouse-100",
+    "view-transitions",
+    "csp",
+    "cloudflare-pages",
+    "tizuvo"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "test": "node --test test/starter.test.mjs"
+  }
+}

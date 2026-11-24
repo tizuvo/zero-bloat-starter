@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Selected Work — Starter Studio Architecture Showcase</title>
+    <meta
+      name="description"
+      content="Explore selected web architecture case studies demonstrating sub-50ms edge delivery, strict Content-Security-Policy headers, and native View Transitions."
+    >
+    <meta name="theme-color" content="#0B0B0C">
+    <link rel="canonical" href="https://example.com/work.html">
+    <link rel="icon" href="/assets/svg/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Open Graph & Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Starter Studio">
+    <meta property="og:title" content="Selected Work — Starter Studio Architecture Showcase">
+    <meta
+      property="og:description"
+      content="Explore selected web architecture case studies demonstrating sub-50ms edge delivery, strict Content-Security-Policy headers, and native View Transitions."
+    >
+    <meta property="og:url" content="https://example.com/work.html">
+    <meta property="og:image" content="https://example.com/assets/svg/favicon.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Selected Work — Starter Studio Architecture Showcase">
+    <meta
+      name="twitter:description"
+      content="Case studies showcasing native cross-document View Transitions and zero-bloat web design."
+    >
+
+    <link rel="stylesheet" href="/assets/css/tokens.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="/assets/js/app.js" defer></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Selected Work — Starter Studio",
+        "url": "https://example.com/work.html",
+        "description": "Selected web architecture case studies demonstrating sub-50ms edge delivery and strict security headers."
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-pill">
+        <a class="brand" href="/">
+          <img
+            class="brand-mark"
+            src="/assets/svg/favicon.svg"
+            alt=""
+            width="24"
+            height="24"
+            decoding="async"
+          >
+          <span>Starter Studio</span>
+        </a>
+
+        <nav class="nav-desktop" aria-label="Primary navigation">
+          <a class="nav-link" href="/">Overview</a>
+          <a class="nav-link" href="/work.html" aria-current="page">Work</a>
+          <a class="nav-link" href="/#capabilities">Capabilities</a>
+          <a class="nav-link" href="/#faq">FAQ</a>
+          <a class="btn btn-primary btn-pill" href="/#contact">Start a project</a>
+        </nav>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          data-nav-toggle
+          aria-expanded="false"
+          aria-controls="mobile-nav-drawer"
+          aria-label="Open navigation menu"
+        >
+          <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+            <path
+              d="M2 4.5h14M2 9h14M2 13.5h14"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <div
+      id="mobile-nav-drawer"
+      class="mobile-drawer"
+      data-mobile-drawer
+      role="dialog"
+      aria-modal="true"
+      aria-label="Mobile navigation"
+      hidden
+    >
+      <div class="mobile-drawer-panel">
+        <div class="mobile-drawer-head">
+          <span class="brand">Starter Studio</span>
+          <button
+            class="nav-toggle"
+            type="button"
+            data-nav-close
+            aria-label="Close navigation menu"
+          >
+            <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+              <path
+                d="M4 4l10 10M14 4L4 14"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+        <nav class="mobile-drawer-links" aria-label="Mobile navigation links">
+          <a href="/">Overview</a>
+          <a href="/work.html" aria-current="page">Work</a>
+          <a href="/#capabilities">Capabilities</a>
+          <a href="/#faq">FAQ</a>
+          <a href="/#contact">Start a project</a>
+        </nav>
+      </div>
+    </div>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="work-title">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="kicker">Selected Work &middot; View Transition Demo</p>
+            <h1 id="work-title">Lean digital products engineered for lasting speed.</h1>
+            <p class="lead">
+              Navigate between this page and the overview to see cross-document
+              <code>@view-transition</code> pinning the sticky header natively in supporting
+              browsers — with zero client-side router.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-header">
+            <p class="kicker">Case Studies</p>
+            <h2 id="projects-title">Sample engagements</h2>
+          </div>
+
+          <div class="work-grid">
+            <article class="work-card reveal">
+              <div class="work-card-body">
+                <div class="work-meta">
+                  <span>01 / FINTECH DOCS</span>
+                  <span>LCP 0.4s</span>
+                </div>
+                <h3>Northstar Ledger Documentation</h3>
+                <p>
+                  Replaced a heavy SPA docs portal with static semantic HTML and edge caching,
+                  cutting total page weight by 94% while improving organic search indexing.
+                </p>
+                <ul class="tag-list">
+                  <li>Static HTML</li>
+                  <li>Edge Cache</li>
+                  <li>100 Lighthouse</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="work-card reveal">
+              <div class="work-card-body">
+                <div class="work-meta">
+                  <span>02 / EDITORIAL COMMERCE</span>
+                  <span>TTFB 28ms</span>
+                </div>
+                <h3>Alder &amp; Loom Studio Catalog</h3>
+                <p>
+                  Designed a dark-and-paper editorial showcase with strict Content-Security-Policy
+                  headers and zero third-party script blockers.
+                </p>
+                <ul class="tag-list">
+                  <li>Strict CSP</li>
+                  <li>Fluid Type</li>
+                  <li>Accessible UI</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="work-card reveal">
+              <div class="work-card-body">
+                <div class="work-meta">
+                  <span>03 / DEVELOPER TOOLS</span>
+                  <span>2.8 KB JS</span>
+                </div>
+                <h3>Meridian Edge Telemetry</h3>
+                <p>
+                  Built a product marketing site and status hub using native disclosure elements,
+                  inline SVGs, and immutable asset caching across global PoPs.
+                </p>
+                <ul class="tag-list">
+                  <li>Zero Deps</li>
+                  <li>View Transitions</li>
+                  <li>Cloudflare Pages</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="work-card reveal">
+              <div class="work-card-body">
+                <div class="work-meta">
+                  <span>04 / ARCHITECTURE FIRM</span>
+                  <span>WCAG AAA</span>
+                </div>
+                <h3>Kestrel Spatial Practice</h3>
+                <p>
+                  Crafted a keyboard-first portfolio with reduced-motion parity, structured JSON-LD
+                  schemas, and sub-second mobile rendering on 3G networks.
+                </p>
+                <ul class="tag-list">
+                  <li>JSON-LD</li>
+                  <li>Reduced Motion</li>
+                  <li>Nginx TLS 1.3</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section editorial-band" aria-labelledby="cta-title">
+        <div class="container editorial-grid">
+          <div>
+            <p class="kicker">Next Step</p>
+            <h2 id="cta-title">Want a site that passes every audit out of the box?</h2>
+          </div>
+          <div>
+            <p class="lead">
+              Return to the overview to customize tokens, test the accessible contact form, or
+              review the FAQ.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="/#contact">Start a project</a>
+              <a class="btn btn-secondary" href="/">Back to overview</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Template engineered by Tizuvo (https://tizuvo.com) — customize freely under MIT License -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-bottom">
+          <span>&copy; 2026 Starter Studio. Customize this footer for your brand.</span>
+          <span><a href="/">Overview</a> &middot; <a href="/#contact">Contact</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

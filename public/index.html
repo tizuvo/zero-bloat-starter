@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Starter Studio — Zero-Bloat Static &amp; Edge Web Starter</title>
+    <meta
+      name="description"
+      content="Zero-dependency, zero-build-step static and edge website starter engineered for 100/100 Lighthouse scores, strict CSP security, and sub-50ms delivery."
+    >
+    <meta name="theme-color" content="#0B0B0C">
+    <link rel="canonical" href="https://example.com/">
+    <link rel="icon" href="/assets/svg/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Open Graph & Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Starter Studio">
+    <meta property="og:title" content="Starter Studio — Zero-Bloat Static &amp; Edge Web Starter">
+    <meta
+      property="og:description"
+      content="Zero-dependency, zero-build-step static and edge website starter engineered for 100/100 Lighthouse scores, strict CSP security, and sub-50ms delivery."
+    >
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:image" content="https://example.com/assets/svg/favicon.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Starter Studio — Zero-Bloat Static &amp; Edge Web Starter">
+    <meta
+      name="twitter:description"
+      content="Pure semantic HTML5, modern CSS, and under 4 KB vanilla JS built for edge performance."
+    >
+
+    <link rel="stylesheet" href="/assets/css/tokens.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <script src="/assets/js/app.js" defer></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "Starter Studio",
+            "url": "https://example.com/",
+            "logo": "https://example.com/assets/svg/favicon.svg",
+            "description": "Independent web engineering studio template focused on fast, accessible, zero-bloat websites."
+          },
+          {
+            "@type": "WebSite",
+            "name": "Starter Studio",
+            "url": "https://example.com/"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-pill">
+        <a class="brand" href="/">
+          <img
+            class="brand-mark"
+            src="/assets/svg/favicon.svg"
+            alt=""
+            width="24"
+            height="24"
+            decoding="async"
+          >
+          <span>Starter Studio</span>
+        </a>
+
+        <nav class="nav-desktop" aria-label="Primary navigation">
+          <a class="nav-link" href="/" aria-current="page">Overview</a>
+          <a class="nav-link" href="/work.html">Work</a>
+          <a class="nav-link" href="#capabilities">Capabilities</a>
+          <a class="nav-link" href="#faq">FAQ</a>
+          <a class="btn btn-primary btn-pill" href="#contact">Start a project</a>
+        </nav>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          data-nav-toggle
+          aria-expanded="false"
+          aria-controls="mobile-nav-drawer"
+          aria-label="Open navigation menu"
+        >
+          <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+            <path
+              d="M2 4.5h14M2 9h14M2 13.5h14"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <div
+      id="mobile-nav-drawer"
+      class="mobile-drawer"
+      data-mobile-drawer
+      role="dialog"
+      aria-modal="true"
+      aria-label="Mobile navigation"
+      hidden
+    >
+      <div class="mobile-drawer-panel">
+        <div class="mobile-drawer-head">
+          <span class="brand">Starter Studio</span>
+          <button
+            class="nav-toggle"
+            type="button"
+            data-nav-close
+            aria-label="Close navigation menu"
+          >
+            <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+              <path
+                d="M4 4l10 10M14 4L4 14"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+        <nav class="mobile-drawer-links" aria-label="Mobile navigation links">
+          <a href="/" aria-current="page">Overview</a>
+          <a href="/work.html">Work</a>
+          <a href="#capabilities">Capabilities</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Start a project</a>
+        </nav>
+      </div>
+    </div>
+
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="kicker">Zero-Bloat Web Architecture</p>
+            <h1 id="hero-title">Fast, resilient websites built without framework weight.</h1>
+            <p class="lead">
+              Starter Studio is a customizable static and edge template crafted with pure semantic
+              HTML5, modern CSS tokens, and under 4 KB of vanilla JavaScript. Ship in minutes with
+              hardened security headers out of the box.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Start a conversation</a>
+              <a class="btn btn-secondary" href="/work.html">Explore selected work</a>
+            </div>
+          </div>
+
+          <div class="metrics-strip reveal" aria-label="Performance benchmarks">
+            <article class="metric-card">
+              <p class="metric-value">100 / 100</p>
+              <p class="metric-label">Lighthouse across all four pillars</p>
+              <p class="metric-note">Performance, Accessibility, Best Practices, SEO</p>
+            </article>
+            <article class="metric-card">
+              <p class="metric-value">&lt; 4 KB</p>
+              <p class="metric-label">Uncompressed vanilla JavaScript</p>
+              <p class="metric-note">No bundler, no hydration tax, zero runtime deps</p>
+            </article>
+            <article class="metric-card">
+              <p class="metric-value">Strict CSP</p>
+              <p class="metric-label">Zero unsafe-inline directives</p>
+              <p class="metric-note">HSTS preload, COOP, CORP, and immutable asset cache</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Warm Paper Editorial Contrast Band -->
+      <section class="section editorial-band" aria-labelledby="philosophy-title">
+        <div class="container editorial-grid">
+          <div class="reveal">
+            <p class="kicker">Editorial Philosophy</p>
+            <h2 id="philosophy-title">Clarity compounds when every byte earns its place.</h2>
+            <p class="editorial-quote">
+              Most websites stall because they ship megabytes of tooling to render a few kilobytes
+              of copy. By pairing native browser primitives with disciplined design tokens, pages
+              stay instant for a decade.
+            </p>
+          </div>
+
+          <ul class="editorial-points reveal">
+            <li>
+              <strong>No build step to maintain</strong>
+              <span>Edit tokens.css and HTML directly. Deploy straight to the edge in seconds.</span>
+            </li>
+            <li>
+              <strong>Native cross-document transitions</strong>
+              <span>Uses @view-transition and pinned headers for app-like navigation without an SPA.</span>
+            </li>
+            <li>
+              <strong>WCAG AA/AAA contrast by default</strong>
+              <span>Dark obsidian and warm paper surfaces are paired for effortless readability.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 3-Card Bento Capabilities Grid -->
+      <section id="capabilities" class="section" aria-labelledby="capabilities-title">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="kicker">Capabilities</p>
+            <h2 id="capabilities-title">Everything a modern studio site needs, nothing it does not.</h2>
+            <p class="lead">
+              Swap copy, tune your palette in tokens.css, and deploy to Cloudflare Pages, Vercel, or
+              Nginx with identical security guarantees.
+            </p>
+          </div>
+
+          <div class="bento-grid">
+            <article class="bento-card reveal">
+              <div class="bento-inner">
+                <span class="bento-index">01 / DESIGN SYSTEM</span>
+                <h3>Tokenized Editorial UI</h3>
+                <p>
+                  Fluid clamp() typography, a strict 4px/8px spacing rhythm, and mathematically
+                  nested radii keep every section aligned on every viewport.
+                </p>
+                <ul class="tag-list">
+                  <li>tokens.css</li>
+                  <li>clamp()</li>
+                  <li>WCAG AAA</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="bento-card reveal">
+              <div class="bento-inner">
+                <span class="bento-index">02 / EDGE SECURITY</span>
+                <h3>Hardened Header Parity</h3>
+                <p>
+                  Pre-configured strict CSP, HSTS preload, Permissions-Policy, and immutable asset
+                  caching stay synchronized across Cloudflare, Vercel, and Nginx.
+                </p>
+                <ul class="tag-list">
+                  <li>Strict CSP</li>
+                  <li>HSTS</li>
+                  <li>Immutable Cache</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="bento-card reveal">
+              <div class="bento-inner">
+                <span class="bento-index">03 / TECHNICAL SEO</span>
+                <h3>Machine-Readable Foundations</h3>
+                <p>
+                  Semantic landmarks, canonical links, Open Graph metadata, JSON-LD structured data,
+                  robots.txt, sitemap.xml, and RFC 9116 security.txt included.
+                </p>
+                <ul class="tag-list">
+                  <li>JSON-LD</li>
+                  <li>Sitemap</li>
+                  <li>Zero-Dep Tests</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Native <details> / <summary> FAQ Accordion -->
+      <section id="faq" class="section" aria-labelledby="faq-title">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="kicker">Questions</p>
+            <h2 id="faq-title">Frequently asked questions</h2>
+            <p class="lead">
+              Powered by native HTML disclosure elements — keyboard accessible and zero JavaScript
+              required.
+            </p>
+          </div>
+
+          <div class="faq-list reveal">
+            <details class="faq-item" open>
+              <summary>How fast can I customize this template for my own brand?</summary>
+              <div class="faq-answer">
+                <p>
+                  Update the custom properties in public/assets/css/tokens.css, swap the geometric
+                  SVG mark, and edit the semantic HTML copy. Most teams publish a branded version in
+                  under five minutes.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary>Can I add custom self-hosted fonts without breaking the strict CSP?</summary>
+              <div class="faq-answer">
+                <p>
+                  Yes. Place your WOFF2 font files inside public/assets/fonts/ and uncomment the
+                  @font-face block at the top of tokens.css. Because font-src is set to 'self',
+                  local fonts load cleanly with zero third-party requests.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary>Why is there no framework or build step?</summary>
+              <div class="faq-answer">
+                <p>
+                  Modern CSS and HTML natively handle custom properties, fluid type, accordions, and
+                  cross-document view transitions. Removing bundlers eliminates dependency rot and
+                  keeps page weight minimal.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary>How do I verify security headers and SEO before deploying?</summary>
+              <div class="faq-answer">
+                <p>
+                  Run npm test to execute the built-in Node verification suite, or start the local
+                  preview server with npm run dev and run npx @tizuvo/audit against your local or
+                  production URL.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- Accessible Contact Form -->
+      <section id="contact" class="section" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-shell reveal">
+            <div class="contact-info">
+              <p class="kicker">Contact</p>
+              <h2 id="contact-title">Ready to ship something lean?</h2>
+              <p>
+                Use this accessible contact form as a drop-in starting point. Point it at a
+                Cloudflare Worker, Formspree, or your own API endpoint when you deploy.
+              </p>
+              <div class="contact-meta">
+                <span>Email: hello@example.com</span>
+                <span>Response window: Within 1 business day</span>
+              </div>
+            </div>
+
+            <form class="contact-form" data-contact-form novalidate>
+              <div class="hp-field" aria-hidden="true">
+                <label for="company-website">Leave this field empty</label>
+                <input
+                  id="company-website"
+                  name="company_website"
+                  type="text"
+                  tabindex="-1"
+                  autocomplete="off"
+                >
+              </div>
+
+              <div class="field">
+                <label for="contact-name">Your name</label>
+                <input
+                  id="contact-name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                  aria-describedby="error-name"
+                >
+                <span id="error-name" class="field-error" data-error-for="contact-name"></span>
+              </div>
+
+              <div class="field">
+                <label for="contact-email">Work email</label>
+                <input
+                  id="contact-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  aria-describedby="error-email"
+                >
+                <span id="error-email" class="field-error" data-error-for="contact-email"></span>
+              </div>
+
+              <div class="field">
+                <label for="contact-message">Project summary</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  required
+                  aria-describedby="error-message"
+                ></textarea>
+                <span id="error-message" class="field-error" data-error-for="contact-message"></span>
+              </div>
+
+              <div>
+                <button class="btn btn-primary" type="submit">Send inquiry</button>
+              </div>
+
+              <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Template engineered by Tizuvo (https://tizuvo.com) — customize freely under MIT License -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <a class="brand" href="/">
+              <img
+                class="brand-mark"
+                src="/assets/svg/favicon.svg"
+                alt=""
+                width="24"
+                height="24"
+                decoding="async"
+              >
+              <span>Starter Studio</span>
+            </a>
+            <p class="lead">
+              A zero-dependency static and edge website template built for speed, security, and
+              longevity.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <p class="footer-title">Navigation</p>
+            <ul class="footer-links">
+              <li><a href="/">Overview</a></li>
+              <li><a href="/work.html">Selected Work</a></li>
+              <li><a href="#capabilities">Capabilities</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <p class="footer-title">Standards</p>
+            <ul class="footer-links">
+              <li><a href="/robots.txt">robots.txt</a></li>
+              <li><a href="/sitemap.xml">sitemap.xml</a></li>
+              <li><a href="/site.webmanifest">Web Manifest</a></li>
+              <li><a href="/.well-known/security.txt">security.txt</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <p class="footer-title">Starter Kit</p>
+            <ul class="footer-links">
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="https://tizuvo.com" rel="noopener noreferrer">Engineered by Tizuvo</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>&copy; 2026 Starter Studio. Customize this footer for your brand.</span>
+          <span>MIT Licensed &middot; Built on zero-bloat-starter</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

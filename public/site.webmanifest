@@ -1,0 +1,17 @@
+{
+  "name": "Starter Studio",
+  "short_name": "Starter",
+  "description": "Zero-dependency, zero-build-step static and edge website starter.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0C",
+  "theme_color": "#0B0B0C",
+  "icons": [
+    {
+      "src": "/assets/svg/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
