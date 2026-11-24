@@ -18,9 +18,24 @@
 
 <p align="center">
   <a href="https://starter.tizuvo.com"><strong>Live Demo (starter.tizuvo.com)</strong></a> &middot;
+  <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fstarter.tizuvo.com%2F">PageSpeed 100/100</a> &middot;
   <a href="https://tizuvo.com/audit">Run Audit</a> &middot;
   <a href="https://github.com/tizuvo/zero-bloat-starter/generate">Use this template</a>
 </p>
+
+---
+
+## Verified 100/100 Benchmarks
+
+Tested live on [`starter.tizuvo.com`](https://starter.tizuvo.com) via **[PageSpeed Insights](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fstarter.tizuvo.com%2F)** and **`@tizuvo/audit`**:
+
+| Audit | Score | Verify Live |
+| --- | --- | --- |
+| **PageSpeed Insights — Performance** | **100 / 100** | [Run on pagespeed.web.dev](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fstarter.tizuvo.com%2F) |
+| **PageSpeed Insights — Accessibility** | **100 / 100** | [Run on pagespeed.web.dev](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fstarter.tizuvo.com%2F) |
+| **PageSpeed Insights — Best Practices** | **100 / 100** | [Run on pagespeed.web.dev](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fstarter.tizuvo.com%2F) |
+| **PageSpeed Insights — SEO** | **100 / 100** | [Run on pagespeed.web.dev](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fstarter.tizuvo.com%2F) |
+| **`npx @tizuvo/audit`** | **100 / 100 (A+ · 18/18)** | `npx @tizuvo/audit https://starter.tizuvo.com` |
 
 ---
 
